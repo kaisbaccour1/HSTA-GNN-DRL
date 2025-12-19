@@ -7,7 +7,7 @@
 
 ## Description
 
-**HSTA-GNN-DRL** is a comprehensive framework for intelligent service placement in vehicular networks that combines:
+**HSTA-GNN+DRL** is a comprehensive framework for intelligent service placement in vehicular networks that combines:
 - **Graph Neural Networks (GNNs)** for spatio-temporal service demand prediction
 - **Deep Reinforcement Learning (DRL)** for optimal service placement decisions
 - **SUMO** for realistic vehicular network simulation
@@ -25,7 +25,7 @@ The system addresses the challenge of efficiently placing compute-intensive serv
 ## Project Structure
 ```bash
 
-HSTA-GNN-DRL/
+HSTA-GNN+DRL/
 ├── src/ # Source code
 │ ├── vehicular_network/ # SUMO simulation & graph generation
 │ └── service_placement/ # GNN prediction + RL placement
@@ -53,8 +53,8 @@ HSTA-GNN-DRL/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/kaisbaccour1/HSTA-GNN-DRL.git
-cd HSTA-GNN-DRL
+git clone https://github.com/kaisbaccour1/HSTA-GNN+DRL.git
+cd HSTA-GNN+DRL
 ```
 
 2. **Create and activate a virtual environment**
@@ -171,6 +171,7 @@ Modify the configuration in src/service_placement/utils/config.py:
 - Modify network architecture
 
 - Set different optimization objectives
+
 
 
 
