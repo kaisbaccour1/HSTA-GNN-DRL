@@ -27,6 +27,3 @@ pydantic
 # Data manipulation
 pandas
 
-# Testing
-pytest
-pytest-cov
