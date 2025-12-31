@@ -120,7 +120,19 @@ Run the entire pipeline:
 ```bash
 python -m models.scripts.run_training_and_evaluation --train-prediction --train-rl --evaluate
 ```
+### Basic Usage
+If you encounter issues running the Python scripts (.py files), Jupyter notebooks are available and work perfectly. They provide an interactive alternative to run the entire pipeline step by step.
 
+**To run the notebooks**
+```bash
+# Launch Jupyter Notebook
+jupyter notebook
+
+# Or launch Jupyter Lab
+jupyter lab
+```
+
+Then navigate to the notebooks/ directory and open the notebooks in order.
 
 ## Evaluation Strategies
 The framework evaluates 6 deployment strategies:
@@ -171,6 +183,7 @@ Modify the configuration in src/service_placement/utils/config.py:
 - Modify network architecture
 
 - Set different optimization objectives
+
 
 
 
